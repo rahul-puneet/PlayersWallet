@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Qa1oaCWZVv1wceBaAw0J8/TSa2/mWJtY9IsRq9VaRr7A6z4eutrJYsk4rWBNNVlfmI+xn9hLWXGvWCWUH7Ahg==",
+  "dgSpecHash": "4TvgGkRmxBsckFNCBHIX0kdWhfqGfCi4erGNuJSLxSQO8OAYSnh9e2gnEZXJnvSN3zX+Fklwcji+Ysojvqt0yw==",
   "success": true,
-  "projectFilePath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.BL\\PlayerWallet.BL.csproj",
+  "projectFilePath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.BL\\PlayerWallet.BL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

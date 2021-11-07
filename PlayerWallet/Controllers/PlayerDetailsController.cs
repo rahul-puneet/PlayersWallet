@@ -28,10 +28,10 @@ namespace PlayerWallet.Controllers
             return _playerService.GetPlayers();
         }
 
-        [HttpGet("{id}")]
-        public PlayerModel Get(Guid playerGuid)
+        [HttpGet("{playerId}")]
+        public PlayerModel Get(Guid playerId)
         {
-            return _playerService.GetPlayerById(playerGuid);
+            return _playerService.GetPlayerById(playerId);
         }
 
         [HttpPost]
@@ -40,15 +40,24 @@ namespace PlayerWallet.Controllers
             _playerService.CreatePlayer(player);
         }
 
-        [HttpPut("{id}")]
-        public void Put(Guid id, [FromBody] string value)
+        [HttpPut()]
+        public void Put([FromBody] PlayerModel player)
         {
+            _playerService.UpdatePlayerDetails(player);
         }
 
-        [HttpDelete("{id}")]
+        [HttpDelete("{playerId}")]
         public void Delete(Guid playerId)
         {
             _playerService.DeletePlayer(playerId);
         }
+
+        [HttpPost]
+        [Route("AddBalance")]
+        public PlayerModel AddBalance(Guid playerId, decimal amount)
+        {
+            return _playerService.AddUpdateBalance(amount, playerId);
+        }
     }
+
 }

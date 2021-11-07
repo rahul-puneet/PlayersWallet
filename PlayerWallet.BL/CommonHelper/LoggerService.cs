@@ -9,7 +9,7 @@ namespace PlayerWallet.BL.CommonHelper
 {
     public class LoggerService : ILoggerManager
     {
-        private static ILogger logger = NLogBuilder.ConfigureNLog("nlog.config").GetCurrentClassLogger();
+        private static ILogger logger = LogManager.GetCurrentClassLogger();
 
         public void LogDebug(string message)
         {

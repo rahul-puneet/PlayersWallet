@@ -1,0 +1,86 @@
+2021-11-07 23:16:50.0543 INFO Application started. Press Ctrl+C to shut down.
+2021-11-07 23:16:50.3369 INFO Hosting environment: Development
+2021-11-07 23:16:50.3369 INFO Content root path: E:\Rahul Learning\PlayerWalletDetails\PlayerWallet
+2021-11-07 23:16:51.0092 ERROR An unhandled exception has occurred while executing the request.
+2021-11-07 23:22:16.4508 INFO Application started. Press Ctrl+C to shut down.
+2021-11-07 23:22:16.5049 INFO Hosting environment: Development
+2021-11-07 23:22:16.5129 INFO Content root path: E:\Rahul Learning\PlayerWalletDetails\PlayerWallet
+2021-11-07 23:22:44.0528 ERROR  Error while creating Player. 
+ Inner Exception:-  System.InvalidCastException: Unable to cast object of type 'System.Collections.Generic.List`1[PlayerWallet.DAL.Entities.PlayerWalletDTO]' to type 'System.Linq.IQueryable`1[PlayerWallet.DAL.Entities.PlayerWalletDTO]'.
+   at lambda_method(Closure , Object , PlayerDTO , ResolutionContext ) 
+ Error message :- Error mapping types.
+
+Mapping types:
+PlayerModel -> PlayerDTO
+PlayerWallet.BL.Model.PlayerModel -> PlayerWallet.DAL.Entities.PlayerDTO
+
+Type Map configuration:
+PlayerModel -> PlayerDTO
+PlayerWallet.BL.Model.PlayerModel -> PlayerWallet.DAL.Entities.PlayerDTO
+
+Destination Member:
+PlayerWalletDetails
+ 
+ Date and Time 07-11-2021 23:22:44
+2021-11-07 23:23:00.5868 ERROR An unhandled exception has occurred while executing the request.
+2021-11-07 23:23:24.4746 ERROR  Error while creating Player. 
+ Inner Exception:-  System.InvalidCastException: Unable to cast object of type 'System.Collections.Generic.List`1[PlayerWallet.DAL.Entities.PlayerWalletDTO]' to type 'System.Linq.IQueryable`1[PlayerWallet.DAL.Entities.PlayerWalletDTO]'.
+   at lambda_method(Closure , Object , PlayerDTO , ResolutionContext ) 
+ Error message :- Error mapping types.
+
+Mapping types:
+PlayerModel -> PlayerDTO
+PlayerWallet.BL.Model.PlayerModel -> PlayerWallet.DAL.Entities.PlayerDTO
+
+Type Map configuration:
+PlayerModel -> PlayerDTO
+PlayerWallet.BL.Model.PlayerModel -> PlayerWallet.DAL.Entities.PlayerDTO
+
+Destination Member:
+PlayerWalletDetails
+ 
+ Date and Time 07-11-2021 23:23:24
+2021-11-07 23:24:25.0581 INFO Application started. Press Ctrl+C to shut down.
+2021-11-07 23:24:25.0939 INFO Hosting environment: Development
+2021-11-07 23:24:25.0939 INFO Content root path: E:\Rahul Learning\PlayerWalletDetails\PlayerWallet
+2021-11-07 23:25:40.7320 ERROR  Error while creating Player. 
+ Inner Exception:-  System.InvalidCastException: Unable to cast object of type 'System.Collections.Generic.List`1[PlayerWallet.DAL.Entities.PlayerWalletDTO]' to type 'System.Linq.IQueryable`1[PlayerWallet.DAL.Entities.PlayerWalletDTO]'.
+   at lambda_method(Closure , Object , PlayerDTO , ResolutionContext ) 
+ Error message :- Error mapping types.
+
+Mapping types:
+PlayerModel -> PlayerDTO
+PlayerWallet.BL.Model.PlayerModel -> PlayerWallet.DAL.Entities.PlayerDTO
+
+Type Map configuration:
+PlayerModel -> PlayerDTO
+PlayerWallet.BL.Model.PlayerModel -> PlayerWallet.DAL.Entities.PlayerDTO
+
+Destination Member:
+PlayerWalletDetails
+ 
+ Date and Time 07-11-2021 23:25:40
+2021-11-07 23:32:38.0629 INFO Application started. Press Ctrl+C to shut down.
+2021-11-07 23:32:38.1080 INFO Hosting environment: Development
+2021-11-07 23:32:38.1080 INFO Content root path: E:\Rahul Learning\PlayerWalletDetails\PlayerWallet
+2021-11-07 23:35:22.5801 INFO Application started. Press Ctrl+C to shut down.
+2021-11-07 23:35:22.6228 INFO Hosting environment: Development
+2021-11-07 23:35:22.6373 INFO Content root path: E:\Rahul Learning\PlayerWalletDetails\PlayerWallet
+2021-11-07 23:38:07.1777 INFO Application started. Press Ctrl+C to shut down.
+2021-11-07 23:38:07.2593 INFO Hosting environment: Development
+2021-11-07 23:38:07.2593 INFO Content root path: E:\Rahul Learning\PlayerWalletDetails\PlayerWallet
+2021-11-07 23:39:01.7014 INFO Application started. Press Ctrl+C to shut down.
+2021-11-07 23:39:01.7363 INFO Hosting environment: Development
+2021-11-07 23:39:01.7536 INFO Content root path: E:\Rahul Learning\PlayerWalletDetails\PlayerWallet
+2021-11-07 23:41:20.8377 INFO  Error while creating Player. 
+ Date and Time 07-11-2021 23:41:20
+2021-11-07 23:41:20.8377 WARN Error while creating Player
+2021-11-07 23:42:24.2655 INFO Application started. Press Ctrl+C to shut down.
+2021-11-07 23:42:24.3126 INFO Hosting environment: Development
+2021-11-07 23:42:24.3126 INFO Content root path: E:\Rahul Learning\PlayerWalletDetails\PlayerWallet
+2021-11-07 23:43:41.3500 INFO Application started. Press Ctrl+C to shut down.
+2021-11-07 23:43:41.3891 INFO Hosting environment: Development
+2021-11-07 23:43:41.3959 INFO Content root path: E:\Rahul Learning\PlayerWalletDetails\PlayerWallet
+2021-11-07 23:59:16.9452 INFO Application started. Press Ctrl+C to shut down.
+2021-11-07 23:59:16.9807 INFO Hosting environment: Development
+2021-11-07 23:59:16.9807 INFO Content root path: E:\Rahul Learning\PlayerWalletDetails\PlayerWallet

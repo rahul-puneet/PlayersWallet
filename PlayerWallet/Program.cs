@@ -28,8 +28,5 @@ namespace PlayerWallet
                 {
                     logging.ClearProviders();
                 }).UseNLog();
-
-         
-
     }
 }

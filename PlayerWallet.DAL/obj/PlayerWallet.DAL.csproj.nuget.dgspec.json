@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj": {}
+    "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj": {}
   },
   "projects": {
-    "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj": {
+    "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj",
+        "projectUniqueName": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj",
         "projectName": "PlayerWallet.DAL",
-        "projectPath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj",
+        "projectPath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\obj\\",
+        "outputPath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",

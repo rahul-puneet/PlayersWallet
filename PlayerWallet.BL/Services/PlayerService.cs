@@ -5,6 +5,7 @@ using PlayerWallet.DAL.Entities;
 using System;
 using System.Collections.Generic;
 using NLog;
+using System.Linq;
 
 namespace PlayerWallet.BL.Services
 {
@@ -25,7 +26,8 @@ namespace PlayerWallet.BL.Services
         {
             try
             {
-                _unityOfWork.playerRepository.Add(_mapper.Map<PlayerDTO>(player));
+                var playerResult = _mapper.Map<PlayerDTO>(player);
+                _unityOfWork.PlayerRepository.Add(playerResult);
                 _unityOfWork.Commit();
             }
             catch(Exception ex)
@@ -38,12 +40,9 @@ namespace PlayerWallet.BL.Services
 
         public IEnumerable<PlayerModel> GetPlayers()
         {
-            _logger.LogInfo($"Error while creating Player");
-            _logger.LogWarn($"Error while creating Player");
-
             try
             {
-                var result = _unityOfWork.playerRepository.Get();
+                var result = _unityOfWork.PlayerRepository.Get();
                 return _mapper.Map<List<PlayerModel>>(result);
             }
             catch (Exception ex)
@@ -57,7 +56,7 @@ namespace PlayerWallet.BL.Services
         {
             try
             {
-                return _mapper.Map<PlayerModel>(_unityOfWork.playerRepository.GetByID(playerId));
+                return _mapper.Map<PlayerModel>(_unityOfWork.PlayerRepository.GetByID(playerId));
             }
             catch (Exception ex)
             {
@@ -70,7 +69,7 @@ namespace PlayerWallet.BL.Services
         {
             try
             {
-                _unityOfWork.playerRepository.Delete(playerId);
+                _unityOfWork.PlayerRepository.Delete(playerId);
             }
             catch (Exception ex)
             {
@@ -82,7 +81,7 @@ namespace PlayerWallet.BL.Services
         {
             try
             {
-               var updatedResult= _unityOfWork.playerRepository.Update(_mapper.Map<PlayerDTO>(player));
+               var updatedResult= _unityOfWork.PlayerRepository.Update(_mapper.Map<PlayerDTO>(player));
                 _unityOfWork.Commit();
             }
              catch (Exception ex)
@@ -95,6 +94,11 @@ namespace PlayerWallet.BL.Services
         {
             try
             {
+                var playerCurrentWallet = _unityOfWork.PlayerWalletRepository.Get().Where(p=>p.PlayerDTO.RegistrationId== playerId).OrderBy(x => x.Modified).FirstOrDefault();
+                playerCurrentWallet.Balance += balanceAmount;
+                _unityOfWork.PlayerWalletRepository.Update(playerCurrentWallet);
+                _unityOfWork.Commit();
+                return _mapper.Map<PlayerModel>(_unityOfWork.PlayerRepository.GetByID(playerId));
             }
             catch (Exception ex)
             {

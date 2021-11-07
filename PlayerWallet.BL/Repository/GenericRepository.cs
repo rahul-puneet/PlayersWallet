@@ -45,10 +45,11 @@ namespace PlayerWallet.BL.Repository
         {
             TEntity entityDelete = _dbset.Find(id);
             _dbContext.Remove(entityDelete);
+            _dbContext.SaveChanges();
         }
 
 
-        public TEntity GetByID(object Id)
+        public virtual TEntity GetByID(object Id)
         {
             return _dbset.Find(Id);
         }

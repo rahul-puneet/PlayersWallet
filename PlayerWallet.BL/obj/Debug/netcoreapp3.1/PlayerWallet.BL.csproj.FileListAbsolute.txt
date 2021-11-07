@@ -10,3 +10,15 @@ E:\Rahul Learning\PlayerWallet\PlayerWallet.BL\bin\Debug\netcoreapp3.1\PlayerWal
 E:\Rahul Learning\PlayerWallet\PlayerWallet.BL\bin\Debug\netcoreapp3.1\PlayerWallet.DAL.pdb
 E:\Rahul Learning\PlayerWallet\PlayerWallet.BL\obj\Debug\netcoreapp3.1\PlayerWallet.BL.csproj.CopyComplete
 E:\Rahul Learning\PlayerWallet\PlayerWallet.BL\obj\Debug\netcoreapp3.1\PlayerWallet.BL.csproj.CoreCompileInputs.cache
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\bin\Debug\netcoreapp3.1\PlayerWallet.BL.deps.json
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\bin\Debug\netcoreapp3.1\PlayerWallet.BL.dll
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\bin\Debug\netcoreapp3.1\PlayerWallet.BL.pdb
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\bin\Debug\netcoreapp3.1\PlayerWallet.DAL.dll
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\bin\Debug\netcoreapp3.1\PlayerWallet.DAL.pdb
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\obj\Debug\netcoreapp3.1\PlayerWallet.BL.csprojAssemblyReference.cache
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\obj\Debug\netcoreapp3.1\PlayerWallet.BL.AssemblyInfoInputs.cache
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\obj\Debug\netcoreapp3.1\PlayerWallet.BL.AssemblyInfo.cs
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\obj\Debug\netcoreapp3.1\PlayerWallet.BL.csproj.CoreCompileInputs.cache
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\obj\Debug\netcoreapp3.1\PlayerWallet.BL.csproj.CopyComplete
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\obj\Debug\netcoreapp3.1\PlayerWallet.BL.dll
+E:\Rahul Learning\PlayerWalletDetails\PlayerWallet.BL\obj\Debug\netcoreapp3.1\PlayerWallet.BL.pdb

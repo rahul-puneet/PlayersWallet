@@ -21,7 +21,7 @@ namespace PlayerWallet
     {
         public Startup(IConfiguration configuration)
         {
-            LogManager.LoadConfiguration(String.Concat(Directory.GetCurrentDirectory(), "/nlog.config"));
+       
             Configuration = configuration;
         }
 
@@ -31,6 +31,7 @@ namespace PlayerWallet
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddScoped<IPlayerRepository, PlayerRepository>();
+            services.AddScoped<IPlayerWalletRepository, PlayerWalletRepository>();
             services.AddScoped<IUnityOfWork, UnityOfWork>();
             services.AddScoped<IPlayerService, PlayerService>();
             services.AddDbContext<PlayerDbContext>(option => option.UseInMemoryDatabase("PlayersWalletDB"));

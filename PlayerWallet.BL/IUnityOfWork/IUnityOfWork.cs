@@ -7,7 +7,8 @@ namespace PlayerWallet.BL
 {
     public interface IUnityOfWork
     {
-        IPlayerRepository playerRepository { get; }
+        IPlayerRepository PlayerRepository { get; }
+        IPlayerWalletRepository PlayerWalletRepository { get; }
         void Commit();
         void Dispose();
 

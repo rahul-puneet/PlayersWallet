@@ -13,13 +13,27 @@ namespace PlayerWallet.BL
         private readonly PlayerDbContext _playerDbContext;
 
         private IPlayerRepository _playerRepository = null;
+        private IPlayerWalletRepository _playerWalletRepository = null;
+
 
         public UnityOfWork(PlayerDbContext playerDbContext)
         {
             _playerDbContext = playerDbContext;
         }
 
-        public IPlayerRepository playerRepository
+        public IPlayerWalletRepository PlayerWalletRepository
+        {
+            get
+            {
+                if (_playerWalletRepository == null)
+                {
+                    _playerWalletRepository = new PlayerWalletRepository(_playerDbContext);
+                }
+                return _playerWalletRepository;
+            }
+        }
+
+        public IPlayerRepository PlayerRepository
         {
             get
             {
@@ -30,6 +44,7 @@ namespace PlayerWallet.BL
                 return _playerRepository;
             }
         }
+
 
         public void Commit()
         {

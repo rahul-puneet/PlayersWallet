@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet\\PlayerWallet.csproj": {}
+    "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet\\PlayerWallet.csproj": {}
   },
   "projects": {
-    "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.BL\\PlayerWallet.BL.csproj": {
+    "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.BL\\PlayerWallet.BL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.BL\\PlayerWallet.BL.csproj",
+        "projectUniqueName": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.BL\\PlayerWallet.BL.csproj",
         "projectName": "PlayerWallet.BL",
-        "projectPath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.BL\\PlayerWallet.BL.csproj",
+        "projectPath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.BL\\PlayerWallet.BL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.BL\\obj\\",
+        "outputPath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.BL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -27,8 +27,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj": {
-                "projectPath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj"
+              "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj": {
+                "projectPath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj": {
+    "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj",
+        "projectUniqueName": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj",
         "projectName": "PlayerWallet.DAL",
-        "projectPath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj",
+        "projectPath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\obj\\",
+        "outputPath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -140,14 +140,14 @@
         }
       }
     },
-    "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet\\PlayerWallet.csproj": {
+    "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet\\PlayerWallet.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet\\PlayerWallet.csproj",
+        "projectUniqueName": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet\\PlayerWallet.csproj",
         "projectName": "PlayerWallet",
-        "projectPath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet\\PlayerWallet.csproj",
+        "projectPath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet\\PlayerWallet.csproj",
         "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-        "outputPath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet\\obj\\",
+        "outputPath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -163,8 +163,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.BL\\PlayerWallet.BL.csproj": {
-                "projectPath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.BL\\PlayerWallet.BL.csproj"
+              "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.BL\\PlayerWallet.BL.csproj": {
+                "projectPath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.BL\\PlayerWallet.BL.csproj"
               }
             }
           }
@@ -185,6 +185,10 @@
             "Microsoft.EntityFrameworkCore.InMemory": {
               "target": "Package",
               "version": "[5.0.11, )"
+            },
+            "NLog": {
+              "target": "Package",
+              "version": "[4.7.12, )"
             },
             "NLog.Extensions.Logging": {
               "target": "Package",

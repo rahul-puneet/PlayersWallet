@@ -21,16 +21,14 @@ namespace PlayerWallet.BL.Repository
             _playerDbContext = playerDbContext;
         }
 
-        public IEnumerable<PlayerWalletDTO> GetPlayerWallet()
-        {
-            var result = _playerDbContext.PlayerWalletBalance.ToList();
-            return result;
-        }
-
         public override IEnumerable<PlayerDTO> Get()
         {
-            var result = _playerDbContext.PlayerDetails.Include(x=>x.PlayerWalletDetails).ToList();
-            return result;
+            return _playerDbContext.PlayerDetails.Include(x=>x.PlayerWalletDetails).ToList();
+        }
+
+        public override PlayerDTO GetByID(object Id)
+        {
+            return _playerDbContext.PlayerDetails.Include(x => x.PlayerWalletDetails).FirstOrDefault(p => p.RegistrationId == (Guid)Id);
         }
     }
 }

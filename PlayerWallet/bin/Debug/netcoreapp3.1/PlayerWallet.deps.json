@@ -26,6 +26,7 @@
         "dependencies": {
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "8.1.1",
           "Microsoft.EntityFrameworkCore.InMemory": "5.0.11",
+          "NLog": "4.7.12",
           "NLog.Extensions.Logging": "1.7.4",
           "NLog.Web.AspNetCore": "4.8.6",
           "PlayerWallet.BL": "1.0.0",
@@ -604,11 +605,11 @@
           "lib/netstandard2.0/Microsoft.OpenApi.dll": {}
         }
       },
-      "NLog/4.7.11": {
+      "NLog/4.7.12": {
         "runtime": {
           "lib/netstandard2.0/NLog.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.11.13229"
+            "fileVersion": "4.7.12.301"
           }
         },
         "compile": {
@@ -618,7 +619,7 @@
       "NLog.Extensions.Logging/1.7.4": {
         "dependencies": {
           "Microsoft.Extensions.Logging": "5.0.0",
-          "NLog": "4.7.11"
+          "NLog": "4.7.12"
         },
         "runtime": {
           "lib/netcoreapp3.0/NLog.Extensions.Logging.dll": {
@@ -2589,12 +2590,12 @@
       "path": "microsoft.openapi/1.2.3",
       "hashPath": "microsoft.openapi.1.2.3.nupkg.sha512"
     },
-    "NLog/4.7.11": {
+    "NLog/4.7.12": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-A7EpoOjWesV5BPx1cOiBndazZq1VGdagIs6oK8ttcRDl5adCMtHiTqnsD5yYaOrMxOQeCjHBf/w3nKzCmhGbgw==",
-      "path": "nlog/4.7.11",
-      "hashPath": "nlog.4.7.11.nupkg.sha512"
+      "sha512": "sha512-cFe+YQVxghBt4hoB8IH+XVW/vyS6rWJPfWmm0rmgS/iaI3lzzFsGRzjw3VhByovLugw7Zp3kY7nVUWADCu6n2g==",
+      "path": "nlog/4.7.12",
+      "hashPath": "nlog.4.7.12.nupkg.sha512"
     },
     "NLog.Extensions.Logging/1.7.4": {
       "type": "package",

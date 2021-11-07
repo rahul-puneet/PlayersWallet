@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "14DTYI8B6U3O85NNwMUSPgUWGxHRsf/ofWw5CZHb9zziT/wEi34MpfWpnbpK5ivoUvN2hrzvL5jhNePtXjVpHw==",
+  "dgSpecHash": "tg5XoCgsuoifVjjbwyT7P7lMuQy/2E5HuMl6hyWSosRQRYJGYeMw7QgKxNMkqsIAAKtF1rIMOex7rzqnfvphew==",
   "success": true,
-  "projectFilePath": "E:\\Rahul Learning\\PlayerWallet\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj",
+  "projectFilePath": "E:\\Rahul Learning\\PlayerWalletDetails\\PlayerWallet.DAL\\PlayerWallet.DAL.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore\\5.0.11\\microsoft.entityframeworkcore.5.0.11.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\5.0.11\\microsoft.entityframeworkcore.abstractions.5.0.11.nupkg.sha512",
