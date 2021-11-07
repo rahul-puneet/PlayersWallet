@@ -58,6 +58,13 @@ namespace PlayerWallet.Controllers
         {
             return _playerService.AddUpdateBalance(amount, playerId);
         }
+
+        [HttpPost]
+        [Route("RemoveBalance")]
+        public PlayerModel RemoveBalance(Guid playerId, decimal amount)
+        {
+            return _playerService.AddUpdateBalance(amount, playerId);
+        }
     }
 
 }
